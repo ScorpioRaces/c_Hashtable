@@ -1,2 +1,2 @@
-hashtable2: hashtable2.c hashtable.c hashtable.h
-	cc -Wall -Wextra -o hashtable2 hashtable2.c hashtable.c
+nodupes: main.c hashtable.c hashtable.h
+	cc -Wall -Wextra -o nodupes main.c hashtable.c

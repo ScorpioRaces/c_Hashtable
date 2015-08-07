@@ -30,7 +30,7 @@ size_t read_line(char **buf, size_t *buflen, const char *path_descriptor, FILE *
 //hash function: h(k) = k(k+3) mod m
 int main(int argc, char **argv){
 	if(argc != 3) {
-		fprintf(stderr, "usage: %s <file>\n", argv[0]);
+		fprintf(stderr, "usage: %s <file> <number of buckets>\n", argv[0]);
 		exit(-1);
 	}
 	int numbuck = atoi(argv[2]);
